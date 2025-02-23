@@ -94,7 +94,6 @@ button{
 
 .current{
         color: #404bbf;
-        background-color: #404bbf;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -106,6 +105,7 @@ button{
         width: 100%;
         height: 4px;
         border-radius: 2px;
+        background-color: #404bbf;
 }
 
 .header-addr {
@@ -319,7 +319,9 @@ button{
 
 .team-social{
         display: flex;
+        align-items: center;
         justify-content: center;
+        
         
 }
 
@@ -328,7 +330,6 @@ button{
         justify-content: center;
         align-items: center;
         gap: 24px;
-        margin-top: 8px;
 }
 
 .social-icon-link{
@@ -337,10 +338,12 @@ button{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 40px;
-        height: 40px;
+        gap: 24px;
+        margin-top: 8px;
         border-radius: 50%;
         background-color: #4d5ae5;
+        width: 40px;
+        height: 40px;
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -453,7 +456,7 @@ button{
     padding-bottom: 100px;
 }
 
-.container-footer{
+.footer .container{
         display: flex;
         align-items: baseline;
 }
@@ -500,14 +503,16 @@ button{
         margin-bottom: 16px;
 }
 
-.footer-social-list {}
+.footer-social-list { 
+        display: flex;
+        gap: 16px;
+}
 
 .footer-item-icon {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 24px;
-        margin-top: 8px;
 }
 
 .footer-social-icon-link {

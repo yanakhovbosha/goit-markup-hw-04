@@ -328,7 +328,7 @@ button{
         align-items: center;
         justify-content: center;
         gap: 24px;
-        
+
 }
 
 .item-social-icon {
@@ -354,7 +354,7 @@ button{
         height: 40px;
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         height: 100%;
-        width: 100%
+        width: 100%;
 } 
 
 .social-icon-link:hover,
@@ -523,12 +523,12 @@ button{
 }
 
 .footer-item-icon {
-        display: flex;
+        /* display: flex;
         justify-content: center;
         align-items: center;
-        gap: 24px;
-        /* width: 40px;
-        height: 40px; */
+        gap: 24px; */
+        width: 40px;
+        height: 40px;
 }
 
 .footer-social-icon-link {
